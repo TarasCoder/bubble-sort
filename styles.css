@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
+  background-color: beige;
+  padding: 20px;
+  border: 1px solid grey;
+  box-shadow: 1px 1px 15px;
+  margin: 50px;
+  box-sizing: border-box;
+}
+.bar {
+  display: block;
+  width: 20px;
+  background-color: rgb(165, 245, 18);
+  height: 50px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  border: 1px solid gray;
+  color: green;
+  font-weight: 700;
+  text-decoration: underline;
+  font-size: 18px;
+}
